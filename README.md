@@ -15,6 +15,7 @@ Finalmente, debemos pensar nos compoñentes a utilizar. Cunha pouca visión de f
 
 ![Montaxe](./doc/montaxe.png)
 
+> Sara Aguado Couselo (2019)
 
 [multímetro]:https://youtu.be/OD-VMmPyCo4
 [divisor de tensión]:https://es.wikipedia.org/wiki/Divisor_de_tensi%C3%B3n
