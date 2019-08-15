@@ -50,13 +50,13 @@ const byte sideCarB[8] = {
 };
 
 const byte frontCarA[8] = {
-        B11100,
-        B00010,
+        B00111,
+        B01000,
         B11111,
         B11011,
         B11111,
-        B00110,
-        B00110,
+        B01100,
+        B01100,
         B00000
 };
 
@@ -68,17 +68,6 @@ const byte frontCarB[8] = {
         B11111,
         B00110,
         B00110,
-        B00000
-};
-
-const byte trafficLightRed[8] = {
-        B01110,
-        B11111,
-        B11111,
-        B11111,
-        B11111,
-        B11111,
-        B01110,
         B00000
 };
 
@@ -101,5 +90,16 @@ const byte trafficLightGreen[8] = {
         B10001,
         B10001,
         B01110,
+        B00000
+};
+
+const byte rightArrow[8] = {
+        B01000,
+        B01100,
+        B01110,
+        B01111,
+        B01110,
+        B01100,
+        B01000,
         B00000
 };
