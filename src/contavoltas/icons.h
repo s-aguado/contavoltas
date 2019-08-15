@@ -4,7 +4,19 @@
  *  
  *  Sara Aguado Couselo - s.aguado.dev@gmail.com
  */
- 
+
+
+const byte rightArrow[8] = {
+        B01000,
+        B01100,
+        B01110,
+        B01111,
+        B01110,
+        B01100,
+        B01000,
+        B00000
+};
+
 const byte number1[8] = {
         B11111,
         B11011,
@@ -90,16 +102,5 @@ const byte trafficLightGreen[8] = {
         B10001,
         B10001,
         B01110,
-        B00000
-};
-
-const byte rightArrow[8] = {
-        B01000,
-        B01100,
-        B01110,
-        B01111,
-        B01110,
-        B01100,
-        B01000,
         B00000
 };
